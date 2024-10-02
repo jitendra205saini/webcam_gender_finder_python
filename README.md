@@ -53,7 +53,7 @@ Ensure the model paths in the code match the locations of these files.
 Run the script from the command line:
 
 ```
-python your_script_name.py --image 0
+python gender.py --image 0
 ```
 You can replace ``` 0 ``` with the path to an image file if you want to analyze a static image instead of using the webcam.
 
@@ -64,5 +64,5 @@ You can replace ``` 0 ``` with the path to an image file if you want to analyze 
 
 ### Example ###
 ```
-python your_script_name.py --image 0 --frame_color 255,0,0 --text_color 0,255,255
+python gender.py --image 0 --frame_color 255,0,0 --text_color 0,255,255
 ```
